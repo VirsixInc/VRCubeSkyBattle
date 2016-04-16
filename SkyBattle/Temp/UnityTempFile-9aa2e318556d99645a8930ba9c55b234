@@ -2,13 +2,13 @@
 -target:library
 -nowarn:0169
 -out:Temp/Assembly-CSharp.dll
--r:"C:/Program Files/Unity5.3/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files/Unity5.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity5.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity5.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity5.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity5.3/Editor/Data/Managed/UnityEditor.dll"
--define:UNITY_5_3_2
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 5.3.0/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_0
 -define:UNITY_5_3
 -define:UNITY_5
 -define:ENABLE_NEW_BUGREPORTER
@@ -72,6 +72,9 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
+Assets/MotiveToUnity/OptitrackRigidBody.cs
+Assets/MotiveToUnity/OptitrackRigidBodyManager.cs
+Assets/MotiveToUnity/SlipStream.cs
 Assets/OVR/Moonlight/Scripts/OVRDebugHeadController.cs
 Assets/OVR/Moonlight/Scripts/OVROverlay.cs
 Assets/OVR/Moonlight/Scripts/OVRPlatformMenu.cs
